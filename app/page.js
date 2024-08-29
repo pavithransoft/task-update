@@ -22,7 +22,7 @@ export default function Home() {
   const currentPageLength = currentCollections.length;
 
   return (
-    <div className="container mx-auto">
+    <div className="container">
       <Header />
       <main className="pt-24 md:pt-28 px-8 md:px-16 lg:px-20">
         <h1 className="text-2xl font-semibold text-darkBlack pt-8 pb-2">
